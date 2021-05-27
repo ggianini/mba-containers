@@ -2,7 +2,7 @@
 
 Para executar o projeto:
 
-Clone esse repo
+Após clonar esse repo:
 
 ```bash
 cd <repo-location>/mba-containers
