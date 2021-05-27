@@ -2,7 +2,12 @@
 
 #Create container images from dockerfiles
 sudo docker build -t mba-nginx-image:1.0 nginx/
+
+sleep 30
+
 sudo docker build -t mba-mysql-image:1.0 mysql/
+
+sleep 30
 
 #Create nginx container from image 
 sudo docker run --name mba-nginx-container -d -p 8081:80 mba-nginx-image:1.0
